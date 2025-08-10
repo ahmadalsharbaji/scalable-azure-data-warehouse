@@ -1,1 +1,1 @@
-# scalable-azure-warehouse-end-to-end
+# Scalable Azure Data Warehouse End-to-End
