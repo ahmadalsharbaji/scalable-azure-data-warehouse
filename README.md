@@ -2,7 +2,18 @@
 
 ## Overview
 
-This repository provides an end-to-end solution for building a scalable data warehouse on Microsoft Azure. It encompasses data ingestion, transformation, and storage, utilizing Azure Synapse Analytics for data processing, and PostgreSQL for storing ingested data. The solution includes Python-based orchestration for seamless data movement.
+This repository provides a solution for building a scalable data warehouse on Microsoft Azure. The solution is designed to handle and process data for a transportation business. It ingests raw data from various sources such as payment transactions, rider information, stations, and trip details into PostgreSQL. The system is designed to transform and store this data in a structured format, enabling analytics and reporting in Azure Synapse Analytics.
+
+### Business Case
+
+The data stored and processed includes:
+
+- **payments.csv**: Records of payment transactions made by riders for their trips.
+- **riders.csv**: Information about riders, including their details and account statuses.
+- **stations.csv**: Data about transportation stations, including locations and other station-related information.
+- **trips.csv**: Trip details including the start and end points, distance, and duration of the rides.
+
+The goal is to create a robust, scalable data architecture that supports business operations by enabling efficient reporting, analytics, and insights into rider behavior, station performance, and payment trends.
 
 ## Architecture
 
