@@ -23,3 +23,21 @@ The system is designed to handle large datasets through a scalable architecture,
 - PostgreSQL instance for data storage.
 - Python 3.8 or higher.
 - Necessary Python libraries as specified in `requirements.txt`.
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ahmadalsharbaji/scalable-azure-data-warehouse.git
+2. Navigate to the project directory:
+   cd scalable-azure-data-warehouse
+3. Install required Python libraries:
+   pip install -r requirements.txt
+4. Configure PostgreSQL connection in data_ingestion scripts.
+5. Run the data ingestion scripts to load data into PostgreSQL.
+6. Execute SQL scripts in Azure Synapse Analytics for schema setup.
+7. PostgreSQL Integration
+Data is ingested into PostgreSQL for storage and transformation before being moved to Azure Synapse Analytics for processing.
+
+##
+Thank you for checking out this project. Feel free to contribute or reach out for any questions!
